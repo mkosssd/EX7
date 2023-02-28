@@ -1,0 +1,85 @@
+*{
+    margin: 0;padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    background-color: blueviolet;
+    display: flex;
+    justify-content: center;
+}
+.pass{
+    width: 40vw;
+    background-color: white;
+    height: 40vh;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap:10vh;
+    align-items: center;
+    margin: auto;
+    border-radius: 10px;
+}
+#sp{
+    height: 4vh;
+    text-align: center;
+    display: block;
+    background-color: black;
+    /* border: 2px solid red; */
+    color: white;
+    /* width: 35vw; */
+    padding: 1vh 2vw;
+    border-radius: 10px;
+}
+.bts{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap:1vh;
+    background-color: black;
+    width: 100%;
+    padding: 1vh 0;
+    justify-content: center;
+    border-radius: 0px 0px 10px 10px;
+}
+.bts button{
+    cursor: pointer;
+    background-color: white;
+    border-radius: 10px;
+    padding: 2px;
+}
+.bts button:hover{
+    transform: scale(1.05);
+}
+
+h2{
+    font-size: 3vw;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+}
+.cop{
+    display: flex;
+}
+i{
+    /* font-size: 3vw; */
+    background-color: white;
+    border: none;
+}
+#copy{
+    display: inline;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+margin-left: 2vw;
+}
+#copy:hover{
+    transform: scale(1.2);
+    
+}
+#copy:active{
+    transform: scale(0.8);
+}
