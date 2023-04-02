@@ -49,11 +49,6 @@ let a = new Password()
 let b = new Password()
 let c = new Password()
 let d = new Password()
-// console.log(f)
-// f.genStrong()
-// f.genWeak()
-// f.genVeryStrong()
-// console.log(passlel);
 function vvs () {
   return document.getElementById('sp').textContent = a.genVVStrong()
 }
@@ -67,17 +62,10 @@ function vs () {
     return  document.getElementById('sp').textContent = d.genVeryStrong()
 }
 function myFunction() {
-    // Get the text field
     var copyText = document.getElementById('sp').innerHTML;
   
-    // Select the text field
-    // copyText.select();
-    // copyText.setSelectionRange(0, 99999); // For mobile devices
-  
-     // Copy the text inside the text field
+    
     navigator.clipboard.writeText(copyText);
-    // navigator.clipboard.writeText(text)
-    // Alert the copied text
-    // alert("Copied the text: " + copyText.value);
+    
   } 
   
